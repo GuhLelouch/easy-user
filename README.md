@@ -20,6 +20,9 @@ Dependencies:
 If not already installed in the appropriate environment, please install pandas library with:
 pip install pandas
 
+The same is valid for the Biopython library:
+pip install biopython
+
 Notice:
 It is very likely that many inserts will share the same backbone primers. However, the script doesn't delete those redundancies yet. Therefore, be careful not to send the same primers several times for synthesis.
 
