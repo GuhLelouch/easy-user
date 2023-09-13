@@ -1,10 +1,16 @@
 # easy-user
 Scripts to facilitate the bulk design of primers for USER cloning and mutagenesis
 
-easy-cloning:
+simple-cloning:
 This is for when you want to make several plasmids with the same backbone but containing different individual inserts.
 
-# How to use:
+simple-mutagenesis (under construction):
+This will be used to make several plasmids with the same backbone and gene but different single-point mutations. Useful for screening any size of libraries of rationally designed single-point variants. Can be potentially used to simultaneously make multi-point mutations separated by ~60 bases.
+
+any-mutagenesis (future idea):
+This will be used to produce any desired mutations in a single region of a plasmid codifying for a protein, including multi-point mutations, deletions, insertions, and a combination of all of those.
+
+# How to use simple-cloning:
 1. In the file called "template.txt", simply paste the sequence of the template containing the desired backbone.
 2. Press Enter and add the position where the inserts will be introduced.
 3. Press Enter and add the position where the inserts will end (obs.: anything between the two positions will be deleted, including the bases in these positions)
