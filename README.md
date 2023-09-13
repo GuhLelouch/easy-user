@@ -13,6 +13,12 @@ How to use:
 6. Save the file.
 7. Run the Python code in a Jupyter notebook.
 
+Output:
+The output is an Excel file named "primers_list.xlsx". There you can find the resulting primers.
+
+Notice:
+It is very likely that many inserts will share the same backbone primers. However, the script doesn't delete those redundancies yet. Therefore, be careful not to send the same primers several times for synthesis.
+
 Requirements:
 
 --------------A--------T-----template-----A--------T--------------
@@ -21,3 +27,4 @@ Requirements:
                      starts            ends
                      near              near                  
                      here              here
+
