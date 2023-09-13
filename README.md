@@ -23,9 +23,6 @@ pip install pandas
 The same is valid for the Biopython library:
 pip install biopython
 
-Notice:
-It is very likely that many inserts will share the same backbone primers. However, the script doesn't delete those redundancies yet. Therefore, be careful not to send the same primers several times for synthesis.
-
 Requirements:
 
 --------------A--------T-----template-----A--------T--------------
@@ -35,3 +32,5 @@ Requirements:
                      near              near                  
                      here              here
 
+# Notice:
+It is very likely that many inserts will share the same backbone primers. However, the script doesn't delete those redundancies yet. Therefore, be careful not to send the same primers several times for synthesis.
